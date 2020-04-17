@@ -60,9 +60,6 @@ def find_all_rooms(world, traversal_path):
                 return next_room.id
             curr_room = next_room
 
-    # def double_time(visited_rooms, curr_room, traversal_path):
-    #   # Was wanting to add a function that would continue a straight path if open. Then work back
-
     # Create our stack
     s = Stack()
     # Add our starting room
